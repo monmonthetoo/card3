@@ -1,0 +1,58 @@
+.title{
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    border: 1px solid rgb(233, 108, 189);
+    width: 350px;
+    height: 500px;
+    position: relative;
+   text-align: center;
+}
+.container-item{
+   
+    width: 350px;
+    background-color: aqua;
+}
+img{
+    position: absolute;
+    width: 350px;
+    z-index: -1;
+    left: 0px;
+    height: 200px;
+}
+.title1{
+    position: absolute;
+    margin-top: 130px;
+    width: 350px;
+    height: 66px;
+    font-size: 20px;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.line{
+    margin-top: 199px;
+    border: 1px solid rgb(233, 108, 189);
+    height: 7px;
+    background-color: rgb(233, 108, 189);
+}
+.icon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+button{
+    border: none;
+    background-color: rgb(233, 108, 189);
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+}
+
